@@ -18,13 +18,14 @@ jwks123 所有项目遵循的代码规范。
 
 #### 安装教程
 
-    git clone git@gitee.com:jwks123/styleguide.git && cd styleguide
+    git clone git@gitee.com:jwks123/styleguide.git 
 
 
 #### 使用说明
 
 示例：visual studio code 项目使用 .prettierrc
 
+    cd styleguide
     ln -s `pwd`/dot-prettierrc .prettierrc
 
 
