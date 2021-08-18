@@ -1,14 +1,13 @@
 # 代码规范
 
-#### 介绍
+## 介绍
 
 Style Guides
 
 jwks123 所有项目遵循的代码规范。
 
 
-
-#### 目录结构说明
+## 目录结构说明
 
 
 - 点(.) 开头的文件改为 `dot-`，如 `.prettierrc` => `dot-prettierrc`
@@ -16,12 +15,12 @@ jwks123 所有项目遵循的代码规范。
 
 
 
-#### 安装教程
+## 安装教程
 
     git clone git@gitee.com:jwks123/styleguide.git 
 
 
-#### 使用说明
+## 使用说明
 
 示例：visual studio code 项目使用 .prettierrc
 
@@ -30,7 +29,7 @@ jwks123 所有项目遵循的代码规范。
 
 
 
-#### 参与贡献
+## 参与贡献
 
 1.  Fork 本仓库
 2.  新建 Feat_xxx 分支
