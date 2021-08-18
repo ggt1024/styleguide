@@ -7,6 +7,12 @@ Style Guides
 jwks123 所有项目遵循的代码规范。
 
 
+文件说明
+
+    dot-prettierrc prettier 配置 
+    pyguide.md Python 代码规范
+
+
 ## 目录结构说明
 
 
@@ -22,7 +28,7 @@ jwks123 所有项目遵循的代码规范。
 
 ## 使用说明
 
-示例：visual studio code 项目使用 .prettierrc
+示例：Visual Studio Code 项目使用 .prettierrc
 
     cd styleguide
     ln -s `pwd`/dot-prettierrc .prettierrc
