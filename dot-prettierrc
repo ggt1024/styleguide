@@ -1,9 +1,16 @@
 {
-  "printWidth": 120,
+  "eslintIntegration": true,
   "tabWidth": 2,
   "semi": true,
   "singleQuote": true,
-  "trailingComma": "es5",
-  "tslintIntegration": true,
-  "insertSpaceBeforeFunctionParenthesis": false
+  "trailingComma": "none",
+  "printWidth": 150,
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
 }
