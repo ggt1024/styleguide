@@ -9,9 +9,10 @@ jwks123 所有项目遵循的代码规范。
 
 文件说明
 
-    dot-prettierrc prettier 配置 
-    pyguide.md Python 代码规范
-    htmlcssguide.md HTML/CSS 代码规范
+    dot-prettierrc     prettier 配置 
+    pyguide.md         Python 代码规范
+    htmlcssguide.md    HTML/CSS 代码规范
+    xsguide.md         JavaScript 和 TypeScript 代码规范
 
 
 ## Source folder layout
