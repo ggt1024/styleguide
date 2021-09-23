@@ -10,6 +10,7 @@ jwks123 所有项目遵循的代码规范。
     pyguide.md         Python 代码编码规范
     htmlcssguide.md    HTML/CSS 代码编码规范
     xsguide.md         JavaScript 和 TypeScript 代码编码规范
+    goguide.md         Go 代码编码规范
 
 
 整体规范由以下三部分组成。
