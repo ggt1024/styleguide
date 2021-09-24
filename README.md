@@ -39,9 +39,7 @@
 
 ## 安装教程
 
-    git clone git@github.com:jwks123/styleguide.git 
-    # or 
-    git clone git@gitee.com:jwks123/styleguide.git 
+    git clone git@github.com:ggt1024/styleguide.git 
 
 
 ## 使用说明
