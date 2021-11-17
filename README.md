@@ -50,6 +50,11 @@
     ln -s `pwd`/dot-prettierrc .prettierrc
 
 
+示例：Visual Studio Code 项目使用 clang-format 格式化 gRPC 协议文件，以 win10 系统为例
+1. https://llvm.org/builds/ 下载 LLVM-x.y.z-xxx.win64.exe 安装包安装 clang-format 到 `c:\pkgs\llvm\` ；
+2. 参考VSC 根目录 `example.vsc.win10.settings.json` 例子， VSC 配置中新增 `"clang-format.executable": "C:/pkgs/LLVM/bin/clang-format.exe"` 。
+
+
 ## 参与贡献
 
 1.  Fork 本仓库
