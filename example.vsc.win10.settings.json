@@ -1,0 +1,127 @@
+{
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#00000090",
+    "editor.lineHighlightBorder": "#ffffff30"
+  },
+  "editor.rulers": [150],
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "workbench.editor.enablePreview": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "explorer.confirmDelete": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "clang-format.style": "{ IndentWidth: 2, BasedOnStyle: google, AlignConsecutiveAssignments: false }",
+  "clang-format.executable": "C:/pkgs/LLVM/bin/clang-format.exe",
+  "editor.tabSize": 2,
+  "go.useLanguageServer": true,
+  "[java]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "redhat.telemetry.enabled": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.linting.flake8Enabled": true,
+  "python.formatting.provider": "yapf",
+  "python.linting.flake8Args": ["--max-line-length=150"],
+  "python.linting.pylintEnabled": false,
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.wordWrapColumn": 150,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur",
+    "editor.formatOnSave": true
+  },
+
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "printWidth": 150,
+      "semi": false, // no ;
+      "singleQuote": true // use single quote
+    }
+  },
+
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "gopls": {
+    "ui.completion.usePlaceholders": true
+  },
+  "go.formatTool": "goimports",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "html.format.wrapLineLength": 150,
+  "go.toolsManagement.autoUpdate": true,
+  "eslint.format.enable": true,
+  "vetur.format.defaultFormatter.ts": "vscode-typescript",
+  "prettier.enable": true,
+  "prettier.printWidth": 150,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.defaultProfile.linux": "tmux",
+  "files.eol": "\n",
+  "html.format.endWithNewline": true,
+  "html.suggest.html5": true,
+  "editor.linkedEditing": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "html.format.templating": true,
+  "html.format.wrapAttributesIndentSize": 2,
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "[proto3]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+
+  "sql-formatter.uppercase": true,
+  "[sql]": {
+    "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "files.insertFinalNewline": true,
+  "remote.SSH.remotePlatform": {
+    "anne": "linux"
+  },
+  "dart.lineLength": 150,
+  "yaml.format.printWidth": 150
+}
