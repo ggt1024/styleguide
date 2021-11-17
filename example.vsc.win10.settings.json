@@ -25,7 +25,7 @@
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "clang-format.style": "{ IndentWidth: 2, BasedOnStyle: google, AlignConsecutiveAssignments: false }",
+  "clang-format.style": "{ IndentWidth: 2, BasedOnStyle: google, AlignConsecutiveAssignments: false, ColumnLimit: 0 }",
   "clang-format.executable": "C:/pkgs/LLVM/bin/clang-format.exe",
   "editor.tabSize": 2,
   "go.useLanguageServer": true,
