@@ -23,7 +23,7 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "clang-format.style": "{ IndentWidth: 2, BasedOnStyle: google, AlignConsecutiveAssignments: false, ColumnLimit: 0 }",
   "clang-format.executable": "C:/pkgs/LLVM/bin/clang-format.exe",
@@ -62,8 +62,8 @@
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
       "printWidth": 150,
-      "semi": false, // no ;
-      "singleQuote": true // use single quote
+      "semi": false,
+      "singleQuote": true
     }
   },
 
@@ -107,7 +107,7 @@
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
     "*.cjson": "jsonc",
@@ -123,5 +123,6 @@
     "anne": "linux"
   },
   "dart.lineLength": 150,
-  "yaml.format.printWidth": 150
+  "yaml.format.printWidth": 150,
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
