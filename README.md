@@ -7,10 +7,13 @@
 此项目目录结构说明
 
     dot-prettierrc     prettier 配置；使用时，点(.) 开头的配置文件改为 `dot-`，如 `.prettierrc` => `dot-prettierrc`
+
     pyguide.md         Python 代码编码规范
     htmlcssguide.md    HTML/CSS 代码编码规范
     xsguide.md         JavaScript 和 TypeScript 代码编码规范
     goguide.md         Go 代码编码规范
+
+    gitignore/         Git 仓库项目忽略文件配置
 
 
 整体规范由以下三部分组成。
@@ -44,10 +47,29 @@
 
 ## 使用说明
 
-示例：Visual Studio Code 项目使用 .prettierrc
+示例：Visual Studio Code 中开发项目使用 .prettierrc
 
-    cd styleguide
-    ln -s `pwd`/dot-prettierrc .prettierrc
+macOS/Linux 系统
+
+    cd path/to/my/project
+    git submodule add git@github.com:ggt1024/styleguide.git
+    git commit -m "add ggt1024/styleguide submodule" .
+        
+    ln -s styleguide/dot-prettierrc .prettierrc
+
+
+win10 系统，需要以管理员身份运行"命令提示符"程序，并执行以下
+
+    cd c:\path\to\my\project
+    git submodule add git@github.com:ggt1024/styleguide.git
+    git commit -m "add ggt1024/styleguide submodule" .
+
+    mklink .prettierrc styleguide\dot-prettierrc
+
+
+以后日常更新规范子模块
+
+    git submodule foreach --recursive git pull origin master
 
 
 示例：Visual Studio Code 项目使用 clang-format 格式化 gRPC 协议文件，以 win10 系统为例
