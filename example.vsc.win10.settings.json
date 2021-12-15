@@ -72,6 +72,7 @@
     "jupyter-notebook": "left"
   },
   "gopls": {
+    "ui.documentation.linksInHover": false,
     "ui.completion.usePlaceholders": true
   },
   "go.formatTool": "goimports",
