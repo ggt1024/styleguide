@@ -36,13 +36,9 @@
 - 每此提交一个尽可能小变更的 commit，如实现一个功能/修复一个bug/格式化若干个相关文档等等；避免一次性提交大量变更对代码评审、差异比较不友好；
 - commit 如果跟某个 issue 相关，应该包含指向
   - 如同仓库内指向 `fix ES6 does not works on IE11 #12`
-  - 如夸项目或仓库指向 `fix bug xxx myorg/myrepo#3` 
+  - 如跨项目或仓库指向 `fix bug xxx myorg/myrepo#3` 
 - 中英文注释(comment)均可，建议英文，保证任何系统下不会乱码；
 - 不要提交跟功能说明、历史说明无关的临时类注释；
-
-## 安装教程
-
-    git clone git@github.com:ggt1024/styleguide.git 
 
 
 ## 使用说明
@@ -53,7 +49,7 @@ macOS/Linux 系统
 
     cd path/to/my/project
     git submodule add git@github.com:ggt1024/styleguide.git
-    git commit -m "add ggt1024/styleguide submodule" .
+    git commit -m "add ggt1024/styleguide submodule" styleguide
         
     ln -s styleguide/dot-prettierrc .prettierrc
 
@@ -62,7 +58,7 @@ win10 系统，需要以管理员身份运行"命令提示符"程序，并执行
 
     cd c:\path\to\my\project
     git submodule add git@github.com:ggt1024/styleguide.git
-    git commit -m "add ggt1024/styleguide submodule" .
+    git commit -m "add ggt1024/styleguide submodule" styleguide
 
     mklink .prettierrc styleguide\dot-prettierrc
 
