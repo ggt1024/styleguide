@@ -25,6 +25,7 @@
 **文件编码规范**
 - 除了依赖 Windows CRLF 换行符特殊 CMD 脚本外，所有文件以 utf8 编码，Unix LF 为换行符
 - 文件末尾不留冗余空行
+- 文档（如 readme ）中英文排版遵循 https://github.com/sparanoid/chinese-copywriting-guidelines
 
 
 **代码编码规范**
