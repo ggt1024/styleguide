@@ -74,9 +74,12 @@ win10 系统，需要以管理员身份运行"命令提示符"程序，并执行
 2. 参考VSC 根目录 `example.vsc.win10.settings.json` 例子， VSC 配置中新增 `"clang-format.executable": "C:/pkgs/LLVM/bin/clang-format.exe"` 。
 
 
-## 参与贡献
+## 参与贡献流程
 
-1.  Fork 本仓库
-2.  新建 xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+所有步骤都是强制
+
+1. Fork 本仓库
+2. 新建 xxx 分支
+3. 修改代码
+4. 本地执行测试和构建都通过
+5. 提交代码，新建 Pull Request
