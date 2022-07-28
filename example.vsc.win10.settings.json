@@ -1,9 +1,25 @@
 {
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "scss",
+    "vue",
+    "sass"
+  ],
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#00000090",
     "editor.lineHighlightBorder": "#ffffff30"
   },
-  "editor.rulers": [150],
+  "editor.rulers": [
+    150
+  ],
   "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "workbench.editor.enablePreview": false,
@@ -18,7 +34,6 @@
   "C_Cpp.updateChannel": "Insiders",
   "explorer.confirmDelete": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
@@ -37,15 +52,19 @@
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook"
   },
-
   "[python]": {
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.linting.flake8Enabled": true,
   "python.formatting.provider": "yapf",
-  "python.linting.flake8Args": ["--max-line-length=150"],
+  "python.formatting.yapfArgs": [
+    "--style",
+    "{column_limit: 150}"
+  ],
+  "python.linting.flake8Args": [
+    "--max-line-length=150"
+  ],
   "python.linting.pylintEnabled": false,
-
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
@@ -53,12 +72,10 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "editor.wordWrap": "on",
   "editor.formatOnSave": true,
-
   "[vue]": {
-    "editor.defaultFormatter": "octref.vetur",
+    "editor.defaultFormatter": "Vue.volar",
     "editor.formatOnSave": true
   },
-
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
       "printWidth": 150,
@@ -66,7 +83,6 @@
       "singleQuote": true
     }
   },
-
   "notebook.cellToolbarLocation": {
     "default": "right",
     "jupyter-notebook": "left"
@@ -102,7 +118,6 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-
   "sql-formatter.uppercase": true,
   "[sql]": {
     "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
@@ -123,7 +138,13 @@
   "remote.SSH.remotePlatform": {
     "anne": "linux"
   },
+  "go.survey.prompt": false,
   "dart.lineLength": 150,
   "yaml.format.printWidth": 150,
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "‎": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "npm.keybindingsChangedWarningShown": true
 }
