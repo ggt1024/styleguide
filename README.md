@@ -43,23 +43,16 @@
 
 ### TypeScript/Vue3 类项目
 
-示例：Visual Studio Code 中开发项目使用 .prettierrc
-
-macOS/Linux 系统
+示例：Visual Studio Code 中开发项目使用
 
     cd path/to/my/project
     git submodule add git@github.com:ggt1024/styleguide.git
-    git commit -m "add ggt1024/styleguide submodule" styleguide
-
-    ln -s styleguide/dot-prettierrc .prettierrc
-
-win10 系统，需要以管理员身份运行"命令提示符"程序，并执行以下
-
-    cd c:\path\to\my\project
-    git submodule add git@github.com:ggt1024/styleguide.git
-    git commit -m "add ggt1024/styleguide submodule" styleguide
-
-    mklink .prettierrc styleguide\dot-prettierrc
+    运行oneClickFormat.bat的批处理文件，等待依赖安装完毕
+    在package.json文件中找到
+    "lint-staged": {
+    	"*.{js,css,md,ts,tsx,vue}": "prettier --write"
+    }
+    在{}中添加要校验的文件类型，如jsx,即可正常使用
 
 以后日常更新规范子模块
 
